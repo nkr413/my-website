@@ -1,7 +1,23 @@
 @font-face {
-	font-family: "Inconsolata";
+	font-family: "Inconsolata Regular";
 	font-style: normal;
 	font-weight: normal;
 	font-display: swap;
 	src: url('Inconsolata-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Inconsolata Light";
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('Inconsolata-Light.ttf');
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraLight";
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+	src: url('Inconsolata-ExtraLight.ttf');
 }
