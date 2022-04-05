@@ -64,17 +64,22 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 
 #main-header-menu-block {
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-family: 'Inconsolata ExtraLight', monospace;
   font-size: 18pt;
   letter-spacing: 0.5px;
 }
 
+#main-header-menu-block > li {margin-bottom: 6px;}
+
 #main-header-menu-block > li > span {user-select: none;}
 #main-header-menu-block > li > a {
   background-color: white;
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
 }
 #main-header-menu-block > li > a:hover {
   background-color: black;
@@ -100,6 +105,27 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 }
 #content-blocks > div > h1 {
   font-family: 'Inconsolata Regular', monospace;
-  font-size: 22pt;
+  font-size: 20pt;
 }
 
+
+#intro-block > div {font-size: 16pt;}
+
+/* SOCIAL NETWORKS STYLES */
+#social-networks-block > div > a {
+  color: black;
+  background-color: white;
+  margin-right: 5px;
+  font-size: 16pt;
+  letter-spacing: 0.5px;
+  
+  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+}
+#social-networks-block > div > a:hover {
+  background-color: black;
+  color: white;
+}
+/* SOCIAL NETWORKS STYLES */
