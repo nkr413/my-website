@@ -1,7 +1,20 @@
 @media screen and (max-width: 700px) {
+	#main-block {
+		margin-left: auto;
+		margin-right: auto;
+		background: transparent;
+		text-align: left;
+		border: 0px solid transparent;
+		width: 90%;
+		font-size: 18pt;
+	}
 	#main-header > img {
   	width: 80px;
   	height: 80px;
+	}
+	#main-header-block {
+  	width: 100%;
+		margin-top: 40px;
 	}
 	#main-header > div > h1 {font-size: 18pt;}
 	#main-header > div > p {font-size: 16pt;}
@@ -9,6 +22,11 @@
   	padding-top: 40px;
   	padding-bottom: 10px;
   	font-size: 16pt;
+	}
+
+	#content-blocks {
+  	width: 100%;
+		text-align: left;
 	}
 	#content-blocks > div > h1 {font-size: 18pt;}
 	#intro-block > div {font-size: 16pt;}
