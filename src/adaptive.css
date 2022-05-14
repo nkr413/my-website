@@ -5,7 +5,7 @@
 		background: transparent;
 		text-align: left;
 		border: 0px solid transparent;
-		width: 90%;
+		width: 95%;
 		font-size: 18pt;
 	}
 	#main-header > img {
@@ -16,18 +16,18 @@
   	width: 100%;
 		margin-top: 40px;
 	}
-	#main-header > div > h1 {font-size: 18pt;}
-	#main-header > div > p {font-size: 16pt;}
+	#main-header > div > h1 {font-size: 17pt;}
+	#main-header > div > p {font-size: 15pt;}
 	#main-header-menu-block {
   	padding-top: 40px;
   	padding-bottom: 10px;
-  	font-size: 16pt;
+  	font-size: 15pt;
 	}
 
 	#content-blocks {
   	width: 100%;
 		text-align: left;
 	}
-	#content-blocks > div > h1 {font-size: 18pt;}
-	#intro-block > div {font-size: 16pt;}
+	#content-blocks > div > h1 {font-size: 17pt;}
+	#intro-block > div {font-size: 15pt;}
 }
