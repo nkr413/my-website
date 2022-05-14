@@ -32,15 +32,13 @@
 	#intro-block > div {font-size: 15pt;}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
 	#main-header {
   	display: flex;
   	flex-direction: column;
   	justify-content: flex-start;
 	}
 	#main-header-block {
-
 		margin-top: 10px;
-
 	}
 }
