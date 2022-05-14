@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+	#main-header > img {
+  	width: 80px;
+  	height: 80px;
+	}
+	#main-header > div > h1 {font-size: 18pt;}
+	#main-header > div > p {font-size: 16pt;}
+	#main-header-menu-block {
+  	padding-top: 40px;
+  	padding-bottom: 10px;
+  	font-size: 16pt;
+	}
+	#content-blocks > div > h1 {font-size: 18pt;}
+	#intro-block > div {font-size: 16pt;}
+}
