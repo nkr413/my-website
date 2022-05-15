@@ -30,6 +30,9 @@
 	}
 	#content-blocks > div > h1 {font-size: 16pt;}
 	#intro-block > div {font-size: 14pt;}
+
+	/* SOCIAL NETWORKS STYLES */
+	#social-networks-block > div > a {font-size: 14pt;}
 }
 
 @media screen and (max-width: 400px) {

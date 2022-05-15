@@ -1,7 +1,7 @@
 @import 'src/fonts/font.css';
 
 :root {
-  --maroon: #BD0F2C;
+  --link-black-clr: black;
 }
 
 body {
@@ -87,7 +87,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
   border-bottom: 2px solid black;
 }
 #main-header-menu-block > li > a:hover {
-  background-color: var(--maroon);
+  background-color: var(--link-black-clr);
   color: white;
 }
 /* HEADER STYLES */
@@ -122,7 +122,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
   border-bottom: 2px solid black;
 }
 #intro-block > div > a:hover {
-  background-color: var(--maroon);
+  background-color: var(--link-black-clr);
   color: white;
 }
 
@@ -139,7 +139,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
   border-bottom: 2px solid black;
 }
 #social-networks-block > div > a:hover {
-  background-color: var(--maroon);
+  background-color: var(--link-black-clr);
   color: white;
 }
 /* SOCIAL NETWORKS STYLES */
