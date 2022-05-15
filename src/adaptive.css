@@ -6,7 +6,7 @@
 		text-align: left;
 		border: 0px solid transparent;
 		width: 95%;
-		font-size: 18pt;
+		font-size: 16pt;
 	}
 	#main-header > img {
   	width: 80px;
@@ -14,22 +14,22 @@
 	}
 	#main-header-block {
   	width: 100%;
-		margin-top: 40px;
+		margin-top: 15px;
 	}
-	#main-header > div > h1 {font-size: 17pt;}
-	#main-header > div > p {font-size: 15pt;}
+	#main-header > div > h1 {font-size: 16pt;}
+	#main-header > div > p {font-size: 14pt;}
 	#main-header-menu-block {
-  	padding-top: 40px;
-  	padding-bottom: 10px;
-  	font-size: 15pt;
+  	padding-top: 30px;
+  	padding-bottom: 0px;
+  	font-size: 14pt;
 	}
 
 	#content-blocks {
   	width: 100%;
 		text-align: left;
 	}
-	#content-blocks > div > h1 {font-size: 17pt;}
-	#intro-block > div {font-size: 15pt;}
+	#content-blocks > div > h1 {font-size: 16pt;}
+	#intro-block > div {font-size: 14pt;}
 }
 
 @media screen and (max-width: 400px) {
