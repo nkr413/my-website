@@ -31,6 +31,9 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 	font-size: 18pt;
 }
 
+::selection{ color: white; background-color: black; }
+
+
 /* HEADER STYLES */
 #main-header-block {
   width: 70%;
@@ -40,7 +43,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
   margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	/*border: 2px solid black;*/
+	user-select: none;
 }
 
 #main-header {
@@ -111,6 +114,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 #content-blocks > div > h1 {
   font-family: 'Inconsolata Regular', monospace;
   font-size: 20pt;
+  user-select: none;
 }
 
 #intro-block > div {font-size: 16pt;}
@@ -127,6 +131,7 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 }
 
 /* SOCIAL NETWORKS STYLES */
+#social-networks-block { user-select: none; }
 #social-networks-block > div > a {
   color: black;
   background-color: white;
