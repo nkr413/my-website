@@ -153,10 +153,11 @@ ul, li {padding: 0;margin: 0;list-style: none;}
 /* DONATE ME STYLES */
 #donate-block > div { font-size: 15pt; }
 #donate-block > ul { font-size: 16pt; }
+#donate-block > ul > li > span {word-break: break-all;}
 #donate-block > ul > li {
   border-left: 2px solid transparent;
   display: inline-block;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   padding-left: 2px;
 }
 #donate-block > ul > li:hover { border-left: 2px solid black; }
