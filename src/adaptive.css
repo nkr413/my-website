@@ -33,6 +33,11 @@
 
 	/* SOCIAL NETWORKS STYLES */
 	#social-networks-block > div > a {font-size: 13pt;}
+
+	/* DONATE ME STYLES */
+	#donate-block > div { font-size: 14pt; }
+	#donate-block > ul { font-size: 15pt; }
+	/* DONATE ME STYLES */
 }
 
 @media screen and (max-width: 400px) {
