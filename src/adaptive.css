@@ -6,7 +6,7 @@
 		text-align: left;
 		border: 0px solid transparent;
 		width: 95%;
-		font-size: 16pt;
+		font-size: 15pt;
 	}
 	#main-header > img {
   	width: 80px;
@@ -14,25 +14,25 @@
 	}
 	#main-header-block {
   	width: 100%;
-		margin-top: 15px;
+		margin-top: 14px;
 	}
-	#main-header > div > h1 {font-size: 16pt;}
-	#main-header > div > p {font-size: 14pt;}
+	#main-header > div > h1 {font-size: 15pt;}
+	#main-header > div > p {font-size: 13pt;}
 	#main-header-menu-block {
   	padding-top: 30px;
   	padding-bottom: 0px;
-  	font-size: 14pt;
+  	font-size: 13pt;
 	}
 
 	#content-blocks {
   	width: 100%;
 		text-align: left;
 	}
-	#content-blocks > div > h1 {font-size: 16pt;}
-	#intro-block > div {font-size: 14pt;}
+	#content-blocks > div > h1 {font-size: 15pt;}
+	#intro-block > div {font-size: 13pt;}
 
 	/* SOCIAL NETWORKS STYLES */
-	#social-networks-block > div > a {font-size: 14pt;}
+	#social-networks-block > div > a {font-size: 13pt;}
 }
 
 @media screen and (max-width: 400px) {
