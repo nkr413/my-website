@@ -1,0 +1,46 @@
+@import 'src/fonts/font.css';
+
+:root {
+  --link-black-clr: black;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: var(--body-color);
+}
+
+* {transition: 0.1s ease-in-out; font-family: 'Inconsolata', monospace;}
+button:focus {outline: none;}
+input:focus {outline: none;}
+textarea:focus {outline: none;}
+ul, li {padding: 0;margin: 0;list-style: none;}
+
+::-webkit-scrollbar {background: rgba(255, 255, 255, 1); width: 7px;, height: 2px;}
+::-webkit-scrollbar-thumb {background: #999999; border-radius: 0px;}
+::-webkit-scrollbar-track-piece {background: transparent;}
+
+#main-block {
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	text-align: center;
+	border: 0px solid transparent;
+	width: 100%;
+	font-size: 18pt;
+}
+
+::selection{ color: white; background-color: black; }
+
+/* HEADER STYLES */
+#main-header-block {
+  width: 70%;
+	background-color: white;
+	margin-top: 40px;
+
+  margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	user-select: none;
+}
